@@ -1,0 +1,56 @@
+.card{
+    padding: 1%;
+    padding-top: 2%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    height: auto;
+    width: 25%;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin: 0 auto;
+}
+.pic{
+    background-image: url("perminder-klair-i4hJekPEh80-unsplash.jpg");
+    height: 16rem;
+    background-position: center; /* Center the image */
+    background-size: contain;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tag{
+    border: black 1px solid;
+    padding: 5px;
+    margin: 10px;
+    font-size: smaller;
+    border-radius: 20px;
+    background-color:rgb(215, 250, 248);
+    margin-bottom: 30px;
+}
+.desc{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: grey;
+}
+button{
+    padding: 10px;
+    border: black 2px solid ;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(187, 211, 255);
+    color: blue;
+
+
+    transition: all 200ms ease;
+}
+button :focus, button:hover{
+    background-color: rgb(84, 84, 236);
+    color: whitesmoke;
+}
+
+
+.pic:hover{
+    transform: scale(1.05, 1.05);
+}
